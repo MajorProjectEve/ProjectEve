@@ -81,7 +81,7 @@ const BreastC = (props) => {
                 onChange={(e) => ageEntered(e)}
               />
 
-              <StyledLabel>Upload Breast Cancer Scan Image:</StyledLabel>
+              <StyledLabel>Upload Breast Cancer Scan Images:</StyledLabel>
               <FormButton onClick={handleClick}>Upload a file</FormButton>
               <input
                 type="file"
